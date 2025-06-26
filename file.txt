@@ -1,1 +1,2 @@
 echo "Hello asus let's Play with Jenkins"
+echo "new content" > newdatafile
