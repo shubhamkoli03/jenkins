@@ -19,8 +19,13 @@ pipeline {
         }
         stage(prod) {
             steps {
-                echo "deploy the code in production"
+                echo "deploy the code"
             }
+        }
+    }
+    post {
+        always {
+            echo "all sucessful deployment"
         }
     }
 }
